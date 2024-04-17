@@ -22,7 +22,7 @@ class BussedSlackEvent:
         self.body['trigger_type'] = self.trigger_type
 
 
-class StateFunctionSlackEvent:
+class StateMachineSlackEvent:
     # Parse the raw event payload as it is received after being passed from one Lambda to another within a StepFunction
     def __init__(self, raw_event):
         self.content = raw_event

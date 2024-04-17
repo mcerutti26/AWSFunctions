@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='AWSFunctions',
-    version='1.0.3',
+    version='1.0.4',
     packages=['AWSHelper','SlackHelper'],
     url='',
     license='',

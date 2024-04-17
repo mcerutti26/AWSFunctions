@@ -1,1 +1,1 @@
-from SlackHelper.base import BussedSlackEvent, StateFunctionSlackEvent
+from SlackHelper.base import BussedSlackEvent, StateMachineSlackEvent
